@@ -6,6 +6,30 @@
 - **[Nombre real]** — `[github-name]`
 - **[Nombre real]** - `[github-name]`
 
+## Entorno
+
+El trabajo se realizará en el archivo `Proyecto.ipynb`, ya que este archivo hace posible usar el núcleo de R para el desarrollo. Como ya hemos trabajado con este formato antes, todos los integrantes del grupo están familiarizados con su ejecución y organización.
+
+### Instalacion 
+
+Para los palurdos incultos que no están familiarizados y no saben cómo hacer que Jupyter Notebook reconozca el kernel de R, aquí hay una solución.
+
+1. **Instalen jupyter**
+```bash
+py -m pip install jupyter 
+```
+2. [**Instalen R.**](https://cran.r-project.org/bin/windows/base/)
+3. Una vez instalado R o que ya estaba instalado; vayan a la carpeta `C:\Program Files\R\R-4.6.1\bin` y habran `R.exe`.
+4. Dentro de la terminal, introduzcan la primera línea, respondan sí (con tilde) a todo y luego se les solicitará que seleccionen el *CRAN mirrow*, elijan el de Chile (que es administrado por la DCC, el final se aproxima). Una vez finalizado, ejecuten la segunda línea.
+```bash
+install.packages("IRkernel") 
+```
+```bash
+IRkernel::installspec(user = TRUE)
+```
+
+
+
 ## Descripcion
 
 En este repositorio de github está el proyecto correspondiente al curso de análisis de regresión denominado *EYP230I*; este proyecto se enfocará en utilizar los conocimientos adquiridos durante el curso para desarrollar un modelo predictivo.
