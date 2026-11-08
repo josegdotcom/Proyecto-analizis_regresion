@@ -1,0 +1,6 @@
+# ignora todo cambio del archivo data
+/data/
+
+#/data/day.csv
+#/data/hour.csv
+#/data/Readme.txt

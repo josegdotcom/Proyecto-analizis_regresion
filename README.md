@@ -59,7 +59,7 @@ Debido a que no se cual fue el feedback del profesor se **trabajara las variable
 5. **mnth:** mes (1 a 12).
 6. **hr:** hora (0 a 23).
 7. **holiday:** el tiempo es vacaciones o no.
-8. **weekday:** día de la semana.
+8. **weekday:** día de la semana (0: Domingo, 1: Lunes, ... , 6: Sabado).
 9. **workingday:** si el día no es ni fin de semana ni vacaciones es 1, de lo contrario es 0.
 10. **weathersit:** Clara, pocas nubes, parcialmente nubladas, parcialmente nubladas.
 11. **temp:** Temperatura normalizada en Celsius. Los valores se derivan a través de $\frac{t-t_{min}}{t_{max}-t_{min}}$, donde $t_{min}=-8$ y $t_{max}=+39$ (sólo en escala horaria).
