@@ -3,7 +3,7 @@
 ## Integrantes
 
 - **Jose Garcia** — `josegdotcom`
-- **[Nombre real]** — `[github-name]`
+- **Camila Rojas** — `Camila-Rojas-05`
 - **[Nombre real]** - `[github-name]`
 
 ## Entorno
@@ -32,7 +32,7 @@ IRkernel::installspec(user = TRUE)
 
 ## Descripcion
 
-En este repositorio de github está el proyecto correspondiente al curso de análisis de regresión denominado *EYP230I*; este proyecto se enfocará en utilizar los conocimientos adquiridos durante el curso para desarrollar un modelo predictivo.
+En este repositorio de github esta el proyecto correspondiente al curso de análisis de regresión denominado *EYP230I*; este proyecto se enfocará en utilizar los conocimientos adquiridos durante el curso para desarrollar un modelo predictivo.
 Los datos que se emplearán son de [Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), una colección de dos archivos en formato csv que contiene información semanal y diaria sobre el alquiler de bicicletas públicas en Washington D.C. Estados Unidos, durante los años 2011 y 2012.
 
 ## Pregunta a responder
