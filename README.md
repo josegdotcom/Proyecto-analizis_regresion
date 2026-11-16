@@ -20,7 +20,7 @@ py -m pip install jupyter
 ```
 2. Si no tiene instalado R,[**Instale R.**](https://cran.r-project.org/bin/windows/base/) de lo contrario, ignore este paso.
 3. Ya con R instalado, vaya a la carpeta `C:\Program Files\R\R-4.6.1\bin` y abran `R.exe`.
-4. Dentro de la terminal, introduzca la primera línea, responda sí (con tilde) a todo y luego se le solicitará que seleccionen el *CRAN mirrow*, elija el de Chile (que es administrado por el DCC, el final se aproxima). Una vez finalizado, ejecute la segunda línea.
+4. Dentro de la terminal, introduzca la primera línea, responda sí (con tilde) a todo y luego se le solicitará que seleccionen el *CRAN mirrow*, elija el de Chile (que es administrado por el DCC). Una vez finalizado, ejecute la segunda línea.
 ```bash
 install.packages("IRkernel") 
 ```
