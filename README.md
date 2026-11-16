@@ -32,7 +32,7 @@ IRkernel::installspec(user = TRUE)
 
 ## Descripción
 
-En este repositorio de github esta el proyecto correspondiente al curso de análisis de regresión denominado *EYP230I* ; este proyecto se enfocará en utilizar los conocimientos adquiridos durante el curso para desarrollar un modelo predictivo.
+En este repositorio de github está el proyecto correspondiente al curso de análisis de regresión denominado *EYP230I* ; este proyecto se enfocará en utilizar los conocimientos adquiridos durante el curso para desarrollar un modelo predictivo.
 Los datos que se emplearán son de [Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), una colección de dos archivos en formato csv que contiene información diaria y por hora sobre el alquiler de bicicletas públicas en Washington D.C. Estados Unidos, durante los años 2011 y 2012.
 
 ## Pregunta a responder
@@ -43,7 +43,7 @@ Los datos que se emplearán son de [Bike Sharing](https://archive.ics.uci.edu/da
 
 ## Variable a predecir
 
-Debido a que no se cual fue el feedback del profesor se **trabajara las variables 1 y 2** haciendo un doble análisis.
+Se **trabajara las variables 1 y 2** haciendo un doble análisis.
 
 1. **casual:** La cantidad de personas no suscritas que arrendaron una bicicleta.
 2. **registered:**  La cantidad de personas suscritas al servicio que arrendaron una bicicleta.
@@ -60,7 +60,7 @@ Debido a que no se cual fue el feedback del profesor se **trabajara las variable
 6. **hr:** hora (0 a 23).
 7. **holiday:** el tiempo es feriado o no.
 8. **weekday:** día de la semana (0: Domingo, 1: Lunes, ... , 6: Sabado).
-9. **workingday:** si el día no es ni fin de semana ni feriado es 1, de lo contrario es 0.
+9. **workingday:** si el día no es fin de semana ni feriado es 1, de lo contrario es 0.
 10. **weathersit:** Clara, pocas nubes, parcialmente nubladas, parcialmente nubladas.
 11. **temp:** Temperatura normalizada en Celsius. Los valores se derivan a través de $\frac{t-t_{min}}{t_{max}-t_{min}}$, donde $t_{min}=-8$ y $t_{max}=+39$ (sólo en escala horaria).
 
